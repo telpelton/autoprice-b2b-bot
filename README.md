@@ -26,7 +26,7 @@ AutoPrice B2B Aggregator is a professional Telegram bot designed for real-time p
 
 2. **Install dependencies:**
    ```bash
-   pip install aiogram python-dotenv selenium undetected-chromedriver cachetools
+   pip install -r requirements.txt
    ```
 
 3. **Configure Environment Variables:**
