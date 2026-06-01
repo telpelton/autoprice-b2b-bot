@@ -5,16 +5,16 @@ AutoPrice B2B Aggregator is a professional Telegram bot designed for real-time p
 ## 🛠 Tech Stack
 * **Python 3.x**
 * **Aiogram 3.x** — Asynchronous Telegram Bot API framework.
-* **Selenium & undetected-chromedriver** — Bypassing anti-bot protections on JavaScript-heavy platforms.
-* **Asyncio & ThreadPoolExecutor** — Managing concurrent scraping tasks without blocking the main event loop.
+* **Aiohttp** — Fast, asynchronous HTTP client for API interactions and direct web requests.
+* **BeautifulSoup4** — Efficient HTML parsing for platforms without public APIs.
 * **Cachetools (TTLCache)** — Optimizing performance by storing analog data lookups.
 
 ## 🚀 Key Features
 * **Asynchronous Processing:** Handles multiple user requests simultaneously with high efficiency.
-* **Anti-Fraud Protection Bypass:** Simulates human behavior to circumvent detection and IP bans.
+* **Direct API & HTML Parsing:** Drastically improved speed by replacing heavy browser automation with direct HTTP requests.
 * **Parallel Scraping:** Queries all 4 providers concurrently, significantly reducing response time.
-* **Performance Optimization:** Implements TTL caching for 60 minutes to eliminate redundant browser queries.
-* **Memory Management:** Includes a scheduled task to restart the browser instance every 48 hours for 24/7 stability.
+* **Performance Optimization:** Implements TTL caching for 60 minutes to eliminate redundant queries for analogs.
+* **Session Management:** Smart handling of authorization tokens and cookies via a unified state file to prevent constant re-logins.
 
 ## 📦 Installation & Setup
 
@@ -22,7 +22,6 @@ AutoPrice B2B Aggregator is a professional Telegram bot designed for real-time p
    ```bash
    git clone [https://github.com/telpelton/autoprice-b2b-bot.git](https://github.com/telpelton/autoprice-b2b-bot.git)
    cd autoprice-b2b-bot
-   ```
 
 2. **Install dependencies:**
    ```bash
