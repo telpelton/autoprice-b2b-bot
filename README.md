@@ -20,7 +20,7 @@ AutoPrice B2B Aggregator is a professional Telegram bot designed for real-time p
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/telpelton/autoprice-b2b-bot.git](https://github.com/telpelton/autoprice-b2b-bot.git)
+   git clone https://github.com/telpelton/autoprice-b2b-bot.git
    cd autoprice-b2b-bot
 
 2. **Install dependencies:**
